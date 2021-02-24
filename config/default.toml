@@ -3,13 +3,11 @@
 imap = 4
 
 [api]
-port = 3000
-host = "127.0.0.1" # by default API server is accessible from localhost only
 maxSize = "5M" # maximum size of an attachment when submitting or uploading messages
 
 [dbs]
 # redis connection
-redis = "redis://127.0.0.1:6379/8"
+redis = "rediss://default:e06fk2ek4qyniu6y@db-redis-lon1-52698-do-user-7389267-0.b.db.ondigitalocean.com:25061"
 
 [log]
 level = "trace"
